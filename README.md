@@ -1,6 +1,6 @@
 # Power BI Star Schema – Data Modeling Portfolio
 
-## Project Overview 
+## Project Overview
 
 This project focuses on designing a structured and efficient data model in Power BI using the **Star Schema** approach. It covers business requirement analysis, data grain, naming standards, data preparation, fact and dimension tables, relationships, and filter direction.
 
