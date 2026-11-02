@@ -1,4 +1,4 @@
-# Power BI Star Schema – Data Modeling Portfolio
+# Power BI Star Schema – Data Modeling Portfolio 
 
 ## Project Overview
 
