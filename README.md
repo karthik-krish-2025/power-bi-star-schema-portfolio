@@ -9,7 +9,7 @@ The objective is to understand how a well-designed data model supports accurate 
 ## Business Context
 
 Poor report performance and incorrect numbers are not always caused by dashboard visuals or DAX calculations. The underlying data model can also be a contributing factor.
-
+ 
 Issues such as incorrect table relationships, inconsistent granularity, inappropriate filter direction, and poorly structured tables can lead to inaccurate results and inefficient reporting.
 
 This project explores data modeling principles that help address these risks by building a clear, consistent, and maintainable Star Schema.
