@@ -43,25 +43,30 @@ Each fact table forms its own star with the dimensions around it. Shared dimensi
  -Understand the business requirements and reporting objectives.
  -Explore the business processes (sales, order fulfillment, inventory, marketing, targets) and available data.
  -Identify the information required to support reporting and analysis.
+ 
 **🔹 Stage 2: Define the Grain**
  -Establish what each row represents before designing relationships.
  -Define the grain of every fact table clearly.
  -Understand the purpose and level of detail of dimension tables.
  -Avoid connecting tables without understanding their structure and granularity.
+ 
 **✅ Example**:
 One row in a customer dimension represents one customer.
 One row in a sales fact table represents one sale line, according to the defined business grain.
 One row in an inventory fact table represents the units for one product on one date.
+
 **🔹 Stage 3: Establish Naming Standards**
  -Apply consistent naming conventions to tables and columns.
  -Use dim prefixes for dimension tables and fact prefixes for fact tables.
  -Use clear, consistent suffixes such as _key and _id where appropriate.
  -Maintain consistent capitalization and formatting in data values.
+ 
 **🔹 Stage 4: Prepare and Clean the Data**
  -Identify and remove unnecessary columns that do not support reporting requirements.
  -Retain fields needed for analysis, relationships, and business metrics.
  -Use Power Query for data cleaning and transformation, where applicable.
  -Keep the data structure clear and consistent before building the model.
+ 
 **🔹 Stage 5: Build the Galaxy Schema**
  -Organize the model around multiple fact tables and shared dimension tables.
  -Connect dimension tables to fact tables using appropriate keys.
@@ -70,9 +75,11 @@ One row in an inventory fact table represents the units for one product on one d
  -Avoid unnecessary direct relationships between fact tables.
  -Use an appropriate filter direction, typically from dimensions to facts.
  -Review relationships and granularity to support accurate reporting.
+ 
 **🔹 Stage 6: Organize Measures and Security**
  -Keep all DAX measures in a dedicated _measures table for easier maintenance.
  -Apply Row-Level Security using the security table to restrict data by region and user email.
+ 
 **💡 Key Concepts Covered**
  -Galaxy Schema (Fact Constellation) and Star Schema data modeling
  -Fact tables and dimension tables
