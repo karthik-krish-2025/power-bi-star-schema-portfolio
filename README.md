@@ -1,5 +1,5 @@
 **🚀 Power BI Galaxy Schema – Data Modeling Portfolio
-📌 Project Overview**
+📌 Project Overview** 
 
 This project focuses on designing a structured and efficient data model in Power BI using a Galaxy Schema (Fact Constellation): multiple star schemas that share common (conformed) dimension tables. It covers business requirement analysis, data grain, naming standards, data preparation, fact and dimension tables, relationships, and filter direction.
 
